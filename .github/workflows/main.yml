@@ -26,4 +26,4 @@ jobs:
     - name: Test with flake8 and flask tests
       run: |
         # запуск проверки проекта по flake8
-        python -m flake8 
+        flake8 . 
